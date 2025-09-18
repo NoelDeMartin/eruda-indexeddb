@@ -1,10 +1,10 @@
 import eruda from 'eruda';
 import LunaDataGrid from 'luna-data-grid';
 import each from 'licia/each';
-import type { DevTools } from 'eruda';
-import { type $, evalCss } from 'licia';
 import { deleteDB, openDB } from 'idb';
 import { classPrefix as c } from './utils';
+import type { DevTools } from 'eruda';
+import type { $ } from 'licia';
 
 export type LiciaElement = $.$;
 
