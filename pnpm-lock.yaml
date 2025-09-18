@@ -11,6 +11,12 @@ importers:
       idb:
         specifier: ^8.0.3
         version: 8.0.3
+      licia:
+        specifier: ^1.48.0
+        version: 1.48.0
+      luna-data-grid:
+        specifier: ^1.6.5
+        version: 1.6.5
     devDependencies:
       '@arethetypeswrong/cli':
         specifier: ^0.17.4
@@ -36,6 +42,9 @@ importers:
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.6.0
         version: 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2)
+      eruda:
+        specifier: ^3.4.3
+        version: 3.4.3
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -946,6 +955,9 @@ packages:
     resolution: {integrity: sha512-xUtoPkMggbz0MPyPiIWr1Kp4aeWJjDZ6SMvURhimjdZgsRuDplF5/s9hcgGhyXMhs+6vpnuoiZ2kFiu3FMnS8Q==}
     engines: {node: '>=18'}
 
+  eruda@3.4.3:
+    resolution: {integrity: sha512-J2TsF4dXSspOXev5bJ6mljv0dRrxj21wklrDzbvPmYaEmVoC+2psylyRi70nUPFh1mTQfIBsSusUtAMZtUN+/w==}
+
   es-module-lexer@1.7.0:
     resolution: {integrity: sha512-jEQoCwk8hyb2AZziIOLhDqpm5+2ww5uIE6lkO/6jcOCusfk6LhMHpXXfBLXTZ7Ydyt0j4VoUQv6uGNYbdW+kBA==}
 
@@ -1239,6 +1251,9 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
+  licia@1.48.0:
+    resolution: {integrity: sha512-bBWiT5CSdEtwuAHiYTJ74yItCjIFdHi4xiFk6BRDfKa+sdCpkUHp69YKb5udNOJlHDzFjNjcMgNZ/+wQIHrB8A==}
+
   local-pkg@1.1.2:
     resolution: {integrity: sha512-arhlxbFRmoQHl33a0Zkle/YWlmNwoyt6QNZEIJcqNbdrsix5Lvc4HyyI3EnwxTYlZYc32EbYrQ8SzEZ7dqgg9A==}
     engines: {node: '>=14'}
@@ -1272,6 +1287,9 @@ packages:
   lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
+
+  luna-data-grid@1.6.5:
+    resolution: {integrity: sha512-nk3ks0wVaeAE48m8BrldWFzAFadWXUA0oxz0Xa+t4wjYQagSSN82j7TwDcGn+jzMF0TpKfxnKNE1CJGhM2S7hQ==}
 
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
@@ -2752,6 +2770,8 @@ snapshots:
 
   environment@1.1.0: {}
 
+  eruda@3.4.3: {}
+
   es-module-lexer@1.7.0: {}
 
   esbuild@0.25.9:
@@ -3077,6 +3097,8 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
+  licia@1.48.0: {}
+
   local-pkg@1.1.2:
     dependencies:
       mlly: 1.8.0
@@ -3107,6 +3129,10 @@ snapshots:
   lru-cache@6.0.0:
     dependencies:
       yallist: 4.0.0
+
+  luna-data-grid@1.6.5:
+    dependencies:
+      licia: 1.48.0
 
   magic-string@0.30.19:
     dependencies:

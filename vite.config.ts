@@ -12,7 +12,7 @@ export default defineConfig({
             fileName: 'eruda-indexeddb',
         },
         rollupOptions: {
-            external: ['idb'],
+            external: ['eruda', 'idb', 'licia', 'licia/each', 'licia/html', 'luna-data-grid'],
         },
     },
     plugins: [

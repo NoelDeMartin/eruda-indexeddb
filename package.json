@@ -21,6 +21,14 @@
         "test:ci": "vitest --run --reporter verbose",
         "verify": "noeldemartin-verify"
     },
+    "peerDependencies": {
+        "eruda": "^3.4.3"
+    },
+    "dependencies": {
+        "idb": "^8.0.3",
+        "licia": "^1.48.0",
+        "luna-data-grid": "^1.6.5"
+    },
     "devDependencies": {
         "@arethetypeswrong/cli": "^0.17.4",
         "@noeldemartin/eslint-config-typescript": "^0.1.2",
@@ -30,6 +38,7 @@
         "@tsconfig/node22": "^22.0.0",
         "@types/node": "^22.13.10",
         "@typescript-eslint/eslint-plugin": "^5.6.0",
+        "eruda": "^3.4.3",
         "eslint": "^8.57.1",
         "prettier-eslint-cli": "^8.0.1",
         "publint": "^0.3.12",
@@ -45,8 +54,5 @@
     },
     "prettier": {
         "printWidth": 120
-    },
-    "dependencies": {
-        "idb": "^8.0.3"
     }
 }
