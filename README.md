@@ -16,8 +16,8 @@ In your code...
 import erudaIndexedDB from 'eruda-indexeddb';
 import eruda from 'eruda';
 
-eruda.add(erudaIndexedDB);
 eruda.init();
+eruda.add(erudaIndexedDB);
 ```
 
 And you're done!
